@@ -1,0 +1,25 @@
+{
+    "name": "random_quote_api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "engines": {
+	"node": "8.9.1o"
+    },
+    "scripts": {
+	"start": "node index.js"
+    },
+    "repository": {
+	"type": "git",
+	"url": "git+https://github.com/glptrst/random_quote_api.git"
+    },
+    "author": "",
+    "license": "GPL-3.0",
+    "bugs": {
+	"url": "https://github.com/glptrst/random_quote_api/issues"
+    },
+    "homepage": "https://github.com/glptrst/random_quote_api#readme"
+}
