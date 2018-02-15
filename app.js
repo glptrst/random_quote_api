@@ -21,6 +21,7 @@ const server = http.createServer((req, res) => {
 	if (req.url === '/') {
 	    res.statusCode = 200;
 	    res.setHeader('Content-Type', 'application/json');
+	    res.setHeader('Access-Control-Allow-Origin', '*');
 	    let response = [
 		{ID: 2177, title: "Nicholas Burroughs", content: "<p>Minimalism is not a lack of something. It’s simply the perfect amount of something.</p>↵", link: "https://quotesondesign.com/nicholas-burroughs-3/"},
 		{ID: 732, title: "Saul Bass", content: "<p>Design is thinking made visual.  </p>↵", link: "https://quotesondesign.com/saul-bass/"},
